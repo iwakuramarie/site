@@ -1,0 +1,85 @@
+:root {
+	--fg-col: #FFFFFF;
+	--main-col: #d2738a;
+	--bg-col: #000000;
+}
+
+@font-face {
+    font-family: 'pxplus_ibm_vga9regular';
+    src: url('/styles/pxplus_ibm_vga9-webfont.woff2') format('woff2'),
+         url('/styles/pxplus_ibm_vga9-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	color: var(--fg-col);
+	font-family: 'pxplus_ibm_vga9regular', monospace;
+	/* letter-spacing: 1px; */
+	/* line-height: 1.2em; */
+	/* font-family: monospace, sans-serif; 
+	font-size: 0.9em;
+	letter-spacing: 2px; */
+}
+
+h1 {
+	font-size: 1.8em;
+	text-align: center;
+	border-bottom: 1px solid var(--main-col);
+}
+
+h2, h3 {
+	color: var(--fg-col);
+	font-style: italic;
+	font-weight: 500;
+	text-shadow: 0 0 5px var(--main-col);
+	clear: both;
+	margin-top: 50px;
+}
+
+h2 {
+	font-size: 1.6em;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+h3 {
+	font-size: 1.3em;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+@keyframes wiredlink {
+	50% {
+		color: var(--fg-col);
+		text-shadow: var(--main-col) 1px 4px 5px;
+	}
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	animation: wiredlink 2s ease-in-out infinite;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	animation-name: wiredlink;
+}
+
+a:link {
+	color: var(--main-col);
+}
+
+a:visited {
+	color: var(--main-col);
+}
+
+a:hover {
+	color: var(--main-col);
+}

@@ -1,0 +1,56 @@
+:root {
+	--fg-col: #FFFFFF;
+	--main-col: #d2738a;
+	--grey-col: #CCCCCC;
+	--bg-col: #000000;
+}
+
+body {
+	background: var(--bg-col);
+}
+
+h1 {
+	border: unset;
+	text-align: unset;
+}
+
+p {
+	letter-spacing: 3px;
+	animation: lost 10s ease-in-out infinite;
+	animation-play-state: running;
+}
+
+.lostimg {
+	position: fixed;
+	bottom: 0;
+	left: 35%;
+	min-width: 350px;
+}
+
+.lostimglink {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.lostimg img {
+	bottom: 0;
+	right: 0;
+}
+
+@keyframes lost {
+	0% {
+		letter-spacing: 3px;
+	}
+	50% {
+		letter-spacing: 12px;
+	}
+	0% {
+		letter-spacing: 3px;
+	}
+}
+
+.notfound {
+	font-weight: bold;
+	color: var(--main-col);
+}

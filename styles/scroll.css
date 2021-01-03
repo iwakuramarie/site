@@ -1,0 +1,22 @@
+:root {
+	--main-col: #d2738a;
+}
+
+/* Chromium-based */
+::-webkit-scrollbar {
+	width: 12px;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--main-col);
+}
+::-webkit-scrollbar-track {
+	background-color: #000;
+}
+::-webkit-scrollbar-corner {
+	background-color: #000;
+}
+
+/* Firefox-based */
+* {
+	scrollbar-color: var(--main-col) #000;
+}

@@ -1,0 +1,32 @@
+:root {
+	--fg-col: #FFFFFF;
+	--main-col: #d2738a;
+	--bg-col: #000000;
+}
+
+body {
+	/* background-image: url("../images/splash.gif");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed; */
+
+	background: var(--bg-col);
+}
+
+h1 {
+	font-size: 2.4em !important;
+	border: none !important;
+	animation: none !important;
+	margin-top: 100px;
+}
+
+h1 > span {
+	border-right: .5em solid var(--main-col);
+	animation: 
+		blink-caret 1.5s step-end infinite;
+}
+
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: var(--main-col); }
+}

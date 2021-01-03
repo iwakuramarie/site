@@ -1,0 +1,7 @@
+* {
+	cursor: url("../images/cursor-default.gif"), default;
+}
+
+a, a > * {
+	cursor: url("../images/cursor-hover.gif"), default;
+}

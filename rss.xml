@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<channel>
+<title>Iwakura Site RSS</title>
+<description>
+Updates from iwakura.rf.gd.
+</description>
+<language>en-gb</language>
+<link>http://iwakura.rf.gd/rss.xml</link>
+<atom:link href="http://iwakura.rf.gd/rss.xml" rel="self" type="application/rss+xml"/>
+<image>
+<title>Updates from iwakura.rf.gd</title>
+<url>http://iwakura.rf.gd/images/banner.gif</url>
+<link>https://iwakura.rf.gd/rss.xml</link>
+</image>
+<!-- begin RSS script -->
+<!-- end RSS script -->
+</channel>
+</rss>
